@@ -1,0 +1,155 @@
+h1 
+    {font-size: xx-large;}
+
+p 
+    {text-align: justify;
+    font-size: large;
+    color: rgb(65, 65, 65);}
+
+figcaption p
+    {color:black;
+    text-align: left}
+
+body 
+    {background-color:rgb(179, 179, 179)}
+
+.seguranca
+    {position: relative;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 20%;
+    height: 20%;}
+
+.seguranca img
+    {width: 100%;
+    height: 100%;}
+
+.seguranca figcaption 
+    {opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10%px;
+    box-sizing: border-box;
+    transition: opacity 1s;}
+
+.seguranca:hover figcaption 
+    {opacity: 1;}
+
+.cefet
+    {position: relative;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 30%;
+    height: 30%;}
+
+.cefet img
+    {width: 100%;
+    height: 100%;}
+
+.cefet figcaption 
+    {opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10%px;
+    box-sizing: border-box;
+    transition: opacity 1s;}
+
+.cefet:hover figcaption 
+    {opacity: 1;}
+
+.circuito
+    {position: relative;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 190%;
+    height: 190%;}
+
+.circuito img
+    {width: 100%;
+    height: 100%;}
+
+.circuito figcaption 
+    {opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10%px;
+    box-sizing: border-box;
+    transition: opacity 1s;}
+
+.circuito:hover figcaption 
+    {opacity: 1;}
+
+.medalha
+    {position: relative;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 70%;
+    height: 70%;}
+
+.medalha img
+    {width: 100%;
+    height: 100%;}
+
+.medalha figcaption 
+    {opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10%px;
+    box-sizing: border-box;
+    transition: opacity 1s;}
+
+.medalha:hover figcaption 
+    {opacity: 1;}
+
+.container 
+    {display: flex;
+    align-items: flex-end;}
+
+.bloco 
+    {background-color: rgb(160, 160, 160);
+    margin: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 10px 30px 5px 5px rgb(39, 39, 39);}
+
+.img 
+    {display: flex;}
+
+li 
+    {font-size: small;
+    margin: 2px;
+    padding: 8px 16px;
+    list-style-type: none;
+    background-color: rgb(230, 230, 230);
+    width: 30%;} 
+
+li:nth-child(4)
+    {background-color: rgb(235, 207, 147);
+    width: 50%;
+    height: 60px;}
+
+button
+    {border: 0px;
+    border-radius: 5px;
+    background-color: rgb(160, 160, 160);}
+    
+    
+button:hover
+    {background-color: rgba(0,0,0,.25);
+    transition: 1s;}
